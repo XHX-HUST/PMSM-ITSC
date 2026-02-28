@@ -1,0 +1,5 @@
+This open-source code is mainly oriented to the fine-grained classification task of inter-turn short-circuit faults in stator windings of three-phase permanent magnet synchronous motors (PMSMs), which can indirectly realize the identification of fault severity.
+Among them, the "XXX.m" file is a MATLAB code script for raw data preprocessing, which implements the conversion process from raw data to training samples that can be directly input into deep learning models.
+The operation steps, parameter settings, and usage methods are elaborated in detail in the code; 
+The "XXX.py" file is the implementation code (Python version) of the intelligent fault diagnosis model based on the one-dimensional convolutional neural network (1D-CNN), and the operation procedures and usage specifications for model construction, training, and verification are also explained in detail in the code. 
+It should be noted that due to restrictions on the usage rights of competition data, the original dataset relied on by this code has not been open-sourced for the time being, and the open-source access address of the dataset will be supplemented subsequently.
